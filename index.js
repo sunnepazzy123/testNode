@@ -5,7 +5,7 @@ app.use(express.json());
 
 app.get('/', (req, res) => {
   res.json({
-    message: 'Node.js test app is running 🚀',
+    message: 'Node.js test app is running Habbeeb 🚀',
     time: new Date().toISOString(),
   });
 });
